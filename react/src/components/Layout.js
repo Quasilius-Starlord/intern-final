@@ -72,7 +72,7 @@ function Layout(props){
             setEDescription('Invalid sibiling spouse')
             return false;
         };
-        if(parch<1 || parch>10){
+        if(parch<0 || parch>10){
             setError(true);
             setEDescription('Invalid parent child')
             return false;
