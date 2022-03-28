@@ -39,7 +39,7 @@ const validation=(age, fare, standard, gender, boarding ,sibSp, parch)=>{
         console.log('Invalid sibiling spouse')
         return false;
     };
-    if(parch<1 || parch>10){
+    if(parch<0 || parch>10){
         console.log('Invalid parent child')
         return false;
     };
