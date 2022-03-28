@@ -1,0 +1,9 @@
+.Responsive{
+
+}
+
+@media screen and (max-width: 680px) {
+    .Responsive {
+      flex-direction: column;
+    }
+  }
